@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:padding="8dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgHerramienta1"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/herramienta1"
+            android:contentDescription="Herramienta 1" />
+
+        <ImageView
+            android:id="@+id/imgHerramienta2"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/herramienta2"
+            android:contentDescription="Herramienta 2" />
+
+        <ImageView
+            android:id="@+id/imgHerramienta3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/herramienta3"
+            android:contentDescription="Herramienta 3" />
+
+        <ImageView
+            android:id="@+id/imgHerramienta4"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/herramienta4"
+            android:contentDescription="Herramienta 4" />
+
+        <ImageView
+            android:id="@+id/imgHerramienta5"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/herramienta5"
+            android:contentDescription="Herramienta 5" />
+
+        <ImageView
+            android:id="@+id/imgHerramienta6"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/herramienta6"
+            android:contentDescription="Herramienta 6" />
+    </GridLayout>
+</ScrollView>

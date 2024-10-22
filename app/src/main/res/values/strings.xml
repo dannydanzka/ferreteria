@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ferretería</string>
+    <string name="navigation_drawer_open">Abrir menú lateral</string>
+    <string name="navigation_drawer_close">Cerrar menú lateral</string>
+    <string name="nav_header_title">Ferretería ABC</string>
+    <string name="nav_header_subtitle">info@ferreteriaabc.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Cerrar sesión</string>
+
+    <!-- Opciones del menú -->
+    <string name="menu_home">Información</string>
+    <string name="menu_gallery">Productos</string>
+    <string name="menu_slideshow">Contacto</string>
+
+    <!-- Nombres de las actividades -->
+    <string name="menu_contacto">Contacto</string>
+
+    <!-- Cadena que falta -->
+    <string name="action_settings">Ajustes</string>
+
+    <!-- Opciones de productos para el Spinner -->
+    <string-array name="productos_opciones">
+        <item>Herramienta 1</item>
+        <item>Herramienta 2</item>
+        <item>Herramienta 3</item>
+        <item>Herramienta 4</item>
+        <item>Herramienta 5</item>
+        <item>Herramienta 6</item>
+    </string-array>
+</resources>
